@@ -1,0 +1,49 @@
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #F9DB79;
+  color: black;
+  padding: 5px 0;
+}
+
+.logo{
+  width: 50px;
+  margin-left: 50px;
+}
+
+.topo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a{
+  color: black;
+  padding-left: 5px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+/* ============ RESPONSIVO ========== */
+@media (max-width:425px){
+  .logo{
+    margin: 0 auto;
+  }
+  .topo{
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav{
+    width: 90%;
+    border-top: 1px solid rgba(24, 23, 23, 0.575);
+    text-align: center;
+  }
+  nav a{
+    padding: 3px 40px;
+  }
+}

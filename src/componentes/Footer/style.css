@@ -1,0 +1,46 @@
+footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.rodape{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px;
+}
+.rodape div{
+  width: 20%;
+}
+
+.logo-footer{
+  width: 100px;
+  height: auto;
+}
+
+.info span{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.footer-autoral{
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* ============= RESPONSIVO ============== */
+@media (max-width:768px){
+  .rodape{
+    padding: 40px 20px;
+    flex-direction: column;
+  }
+  .rodape div{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-autoral{
+    padding: 5px 20px;
+  }
+}
