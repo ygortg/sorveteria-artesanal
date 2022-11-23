@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sorveteria-artesanal/precache-manifest.d57b1e9d8b67f9666a8da2be26043099.js"
+  "/sorveteria-artesanal/precache-manifest.c9d558d9ec2a36de6da1478ec95f5d8c.js"
 );
 
 workbox.clientsClaim();
