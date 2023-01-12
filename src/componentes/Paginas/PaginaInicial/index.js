@@ -22,7 +22,7 @@ export default function PaginaInicial() {
             <span>Novos e deliciosos</span>
 
             <p>
-              Sorvete bom é aquele feito comos melhores ingredientes!<br/>
+              Sorvete bom é aquele feito com os melhores ingredientes!<br/>
               Aqui na gelateria todos os nossos produtos são naturais a base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açucar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudavel ao mesmo tempo!
             </p>
           </div>
