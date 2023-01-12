@@ -99,7 +99,6 @@ main{
   }
   .card-text h3{
     font-size: 25px;
-    line-height: 10px;
   }
   .card:nth-child(odd){
     flex-direction: column-reverse;
